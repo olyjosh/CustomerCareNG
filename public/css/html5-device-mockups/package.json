@@ -1,0 +1,42 @@
+{
+  "_from": "html5-device-mockups@3.0.0",
+  "_id": "html5-device-mockups@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Uit/vD02MZajmfI9exZ0Qf265QZQ6nlPH9wCjDeZpQDr8P4NW0w8KwHNPAT3QE76WkN7JXRmipA4KHDXa8dZGA==",
+  "_location": "/html5-device-mockups",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "html5-device-mockups@3.0.0",
+    "name": "html5-device-mockups",
+    "escapedName": "html5-device-mockups",
+    "rawSpec": "3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/html5-device-mockups/-/html5-device-mockups-3.0.0.tgz",
+  "_shasum": "fbfd1f4b823e5c169664c81186bede6646785622",
+  "_spec": "html5-device-mockups@3.0.0",
+  "_where": "/Users/mac/IdeaProjects/CustomerCareNG",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "HTML5 mockups of popular devices, to showcase your portfolio and spice up your website.",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.1.0",
+    "grunt-contrib-less": "^1.4.1"
+  },
+  "license": "ISC",
+  "main": "dist/device-mockups.min.css",
+  "name": "html5-device-mockups",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.0.0"
+}
