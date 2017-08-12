@@ -25,6 +25,20 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
+/****************************************
+ ***************************************
+ * API END-POINT
+ ***************************************/
+const API = "/api/v1/"
+const API_AUTH_REQUIRE = "/api/v1/auth/"
+const AIService = require('./controllers/ai_service');
+
+var aiService = new AIService();
+
+app.get(API+'sendAIMessage' ,aiService.sendMessage)
+
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
